@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>User Dashboard</h1>
+
+    <!-- Search (bonus feature included) -->
+    <input type="text" id="searchInput" placeholder="Search by name...">
+
+    <br><br>
+
+    <button id="loadBtn">Load Users</button>
+
+    <!-- Loading message -->
+    <div id="loading" class="hidden">Loading...</div>
+
+    <!-- Error message -->
+    <div id="error" class="hidden"></div>
+
+    <!-- Users will appear here -->
+    <div id="usersContainer"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
